@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auto WiFi MMU 2.3</string>
+    <string name="test">Test Connection</string>
+    <string name="greeting">Auto connect to the MMU wireless network with WiFi SSID \"MMU\" in Multimedia University, Malaysia</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="credit">
+<b>Changelog</b>
+\nversion 2.3
+\n * Fix an issue in Android 4.2 Jelly Bean that getSSID() will return the SSID enclosed in quotes
+\n * Change the theme of the application  
+
+\n\nversion 2.2
+\n * Restarting the service without a valid WiFi connection no longer crash the app 
+
+\n\nversion 2.1
+\n * No longer try to ping MMU WiFi when not connected to "MMU" 
+
+\n\nversion 2.0
+\n * Auto WiFi MMU no longer send data via 3G 
+\n * Improved checking of connection to MMU WiFi
+
+\n\n<b>Credits</b> 
+\n A community project for Hackerspace MMU
+\n * Aarief for discovering and testing the bugs about 3G data    
+\n * Raymond Choo for the idea
+\n * Victor Law and others for the logo
+</string>
+<string name="toast">Toast (notification) from background service</string>
+</resources>
